@@ -23,7 +23,7 @@ ThisBuild / description := "OpenURP Edu Cert"
 ThisBuild / homepage := Some(url("http://openurp.github.io/edu-extern/index.html"))
 
 
-val commons = "org.beangle.commons" % "beangle-commons" % "6.0.15-SNAPSHOT"
+val commons = "org.beangle.commons" % "beangle-commons" % "6.0.15"
 lazy val webapp = (project in file("."))
   .settings(
     name := "openurp-edu-cert",
